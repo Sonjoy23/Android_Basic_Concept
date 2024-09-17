@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/setting"
+        android:title="Setting"
+
+        />
+    <item
+        android:id="@+id/shere"
+        android:title="Shere"
+
+        />
+    <item
+        android:id="@+id/profile"
+        android:title="profile"
+
+        />
+    <item
+        android:id="@+id/about"
+        android:title="About us"
+
+        />
+
+</menu>

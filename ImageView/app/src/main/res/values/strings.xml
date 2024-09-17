@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">image_view</string>
+    <string name="text">This is my imageView</string>
+</resources>

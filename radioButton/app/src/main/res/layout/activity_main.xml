@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="@string/textView1"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:background="#FFC107"
+        />
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/maleRadio"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="#00BCD4"
+            android:text="Male"
+            android:layout_marginTop="10dp"
+            android:textSize="40sp"
+            />
+        <RadioButton
+            android:id="@+id/femaleRadio"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="#00BCD4"
+            android:text="Female"
+            android:layout_marginTop="10dp"
+            android:textSize="40sp"
+            />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:background="#00BCD4"
+        />
+
+
+
+
+</LinearLayout>

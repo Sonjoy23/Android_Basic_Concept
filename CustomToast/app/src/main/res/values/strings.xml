@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">tost</string>
+    <string name="custom_tost">You click login button</string>
+</resources>

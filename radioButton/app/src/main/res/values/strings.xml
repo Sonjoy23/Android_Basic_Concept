@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">radioButton</string>\
+    <string name="textView1">This is RadioButton</string>
+</resources>
