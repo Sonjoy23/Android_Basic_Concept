@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFC107"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Contact"
+        android:gravity="center"
+        android:textSize="35sp"/>
+    <EditText
+        android:id="@+id/inputNameId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Name"
+        android:gravity="center"
+        android:inputType="text"
+        android:background="#ffff"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    <EditText
+        android:id="@+id/inputNumberId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Number"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:background="#ffff"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    <Button
+        android:id="@+id/addId"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="200dp"
+        />
+
+
+</LinearLayout>
