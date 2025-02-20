@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="#8BC34A"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".create_accout">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:background="#0288D1"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Create Account"
+                    android:textSize="35sp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <EditText
+        android:id="@+id/name_id"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#E1F5FE"
+        android:layout_marginTop="150dp"
+        android:maxLength="15"
+        android:textSize="30sp"
+        android:inputType="text"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        />
+    <EditText
+        android:id="@+id/gmail_id"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#E1F5FE"
+        android:layout_marginTop="20dp"
+        android:maxLength="20"
+        android:textSize="30sp"
+        android:inputType="text"
+        android:layout_height="wrap_content"
+        android:hint="Gmail"
+        />
+    <EditText
+        android:id="@+id/user_id"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#E1F5FE"
+        android:layout_marginTop="20dp"
+        android:maxLength="8"
+        android:textSize="30sp"
+        android:inputType="text"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        />
+    <EditText
+        android:id="@+id/password_editText_id"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#E1F5FE"
+        android:layout_marginTop="20dp"
+        android:maxLength="8"
+        android:textSize="30sp"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        />
+    <Button
+        android:id="@+id/submit_id"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:text="Submit"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

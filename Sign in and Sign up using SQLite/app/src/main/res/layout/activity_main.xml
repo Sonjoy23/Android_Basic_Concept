@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#03A9F4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:background="#0288D1"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Please Login"
+                    android:textSize="35sp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <EditText
+        android:id="@+id/user_name_editText_id"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#E1F5FE"
+        android:layout_marginTop="150dp"
+        android:maxLength="20"
+        android:textSize="30sp"
+        android:inputType="text"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        />
+    <EditText
+        android:id="@+id/password_editText_id"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#E1F5FE"
+        android:layout_marginTop="20dp"
+        android:maxLength="8"
+        android:textSize="30sp"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        />
+    <Button
+        android:id="@+id/login_button_id"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:text="Login"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/create_button_id"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="Create Account"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/manageDataId"
+        android:text="ManageData"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="240dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

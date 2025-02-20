@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#03A9F4"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Name"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/name_id"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:layout_marginLeft="20dp"
+            android:maxLength="20"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Age"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/age_id"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:layout_marginLeft="45dp"
+            android:maxLength="20"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Gender"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/gender_id"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:maxLength="20"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Id"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/ID_id"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:maxLength="20"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_id"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20sp"
+        android:text="Insert"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/show_data_id"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:textSize="30sp"
+        android:text="ShowData"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/update_data_id"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:textSize="30sp"
+        android:text="Update"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/delete_data_id"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:textSize="30sp"
+        android:text="Delete"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>
